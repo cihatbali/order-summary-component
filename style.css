@@ -1,0 +1,117 @@
+/* @import url(https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;800&display=swap); */
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body {
+    height:98vh;
+    background:#e0e8ff;
+}
+
+main {
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:url(images/pattern-background-desktop.svg);
+}
+
+.card {
+    width:400px;
+    height:550px;
+    text-align:center;
+    border:none;
+    border-radius:15px;
+    font-family: 'Red Hat Display', sans-serif; 
+    background:#f5f7ff;
+}
+
+.card-img img {
+    border-radius:15px 15px 0 0;
+}
+
+.card-content {
+    padding:30px 40px;
+}
+
+.card p {
+    color:#7280a7;
+}
+
+.card-head {
+    font-size:26px;
+    font-weight:800;
+    color:#1f2f56;
+}
+
+.card-prg {
+    margin-top:10px;
+    font-weight:500;
+}
+
+.card-row {
+    display:flex;
+    padding:20px;
+}
+
+.card-row-1 {
+    width:40px;
+    height:40px;
+    border:none;
+    border-radius:50%;
+}
+
+.card-row-2 {
+    margin-left:25px;
+}
+
+.card-row-2-head {
+    color:#1f2f56;
+    font-weight:700;
+    cursor:pointer;
+}
+
+.card-row-3 {
+    margin-left:70px;
+    cursor:pointer;
+}
+
+.card-row-3-txt {
+    font-size:14px;
+    margin-top:10px;
+    font-weight:700;
+    text-decoration-line: underline;
+}
+
+.card button {
+    width:100%;
+    height:40px;
+    margin-top:15px;
+    color:#fff;
+    background:#3829e0;
+    font-size:700;
+    border:none;
+    border-radius:10px;
+    box-shadow:0 12px 10px #ccc;
+    cursor:pointer;
+}
+
+.card .card-end {
+    font-size:14px;
+    font-weight:700;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+
+
+.attribution {
+     font-size: 11px; 
+     text-align: center; 
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+ }
