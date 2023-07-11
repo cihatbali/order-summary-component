@@ -17,6 +17,7 @@ main {
     justify-content:center;
     align-items:center;
     background:url(images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
 }
 
 .card {
